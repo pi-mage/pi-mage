@@ -1,2 +1,3 @@
 # pi-mage
-local cloud for image storage
+local cloud for images storage
+
