@@ -1,0 +1,20 @@
+{
+    "name": "pi-mage/pi-mage",
+    "description": "Local cloud for Raspberry PI to store your images.",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "blackorbit1",
+            "email": "38140797+blackorbit1@users.noreply.github.com"
+        },
+        {
+            "name": "Equinox4",
+            "email": "37479575+Equinox4@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
