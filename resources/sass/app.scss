@@ -1,0 +1,13 @@
+// une couleur
+$couleur : red;
+
+.testscss {
+    color: $couleur;
+    background-color: #7dff98;
+    border-radius: 50px;
+
+    .inner {
+        background-color: #9fcdff;
+    }
+
+}

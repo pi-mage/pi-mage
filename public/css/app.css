@@ -1,0 +1,9 @@
+.testscss {
+  color: red;
+  background-color: #7dff98;
+  border-radius: 50px;
+}
+.testscss .inner {
+  background-color: #9fcdff;
+}
+
