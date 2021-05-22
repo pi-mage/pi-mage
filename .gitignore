@@ -3,7 +3,8 @@
 /public/storage
 /storage/*.key
 /vendor
-.env
+# Sinon ça fait Erreur 500 quand on lance le site >:( on peut utiliser un autre moyen pour des config custom
+#.env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
