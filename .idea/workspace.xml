@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b5434f-925c-4408-bd57-6b4d0752cfd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer-setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621692082387</updated>
       <workItem from="1621692084585" duration="81000" />
-      <workItem from="1621692281181" duration="4448000" />
+      <workItem from="1621692281181" duration="5720000" />
     </task>
     <task id="LOCAL-00001" summary="deplacement projet laravel">
       <created>1621693980616</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621698645557</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout fichiers importants et suppression fichiers inutiles">
+      <created>1621699030075</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621699030075</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +151,7 @@
     <MESSAGE value="resolution conflit main" />
     <MESSAGE value="correction bug" />
     <MESSAGE value="config editor + gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="config editor + gitignore" />
+    <MESSAGE value="ajout fichiers importants et suppression fichiers inutiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout fichiers importants et suppression fichiers inutiles" />
   </component>
 </project>
