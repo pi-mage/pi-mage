@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b5434f-925c-4408-bd57-6b4d0752cfd4" name="Default Changelist" comment="ajout fichiers importants et suppression fichiers inutiles">
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/rLJKJ4FjNr86lcnIOu8wn3hIGWHiupSo1d7FDhCN" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/views/4f7b0edb17aecc733caea36c97b45df2aa53abce.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/4f7b0edb17aecc733caea36c97b45df2aa53abce.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621699030075</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ajout utilisation scss">
+      <created>1621719382951</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621719382951</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +170,8 @@
     <MESSAGE value="correction bug" />
     <MESSAGE value="config editor + gitignore" />
     <MESSAGE value="ajout fichiers importants et suppression fichiers inutiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout fichiers importants et suppression fichiers inutiles" />
+    <MESSAGE value="ajout utilisation scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout utilisation scss" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

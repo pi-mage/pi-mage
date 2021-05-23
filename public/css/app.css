@@ -1,9 +1,57 @@
-.testscss {
-  color: red;
-  background-color: #7dff98;
-  border-radius: 50px;
+.sidebar {
+  background-color: white;
+  box-shadow: 0 10px 10px -5px black;
+  font-weight: bold;
+  color: gray;
+  position: fixed;
 }
-.testscss .inner {
-  background-color: #9fcdff;
+@media screen and (max-width: 350px) {
+  .sidebar {
+    width: 80%;
+    display: none;
+  }
+}
+@media screen and (min-width: 350px) {
+  .sidebar {
+    width: 200px;
+  }
+}
+
+.hamburger {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 100%;
+  background-color: white;
+  box-shadow: 0 10px 30px -5px black, 0 1px 5px 0px #0003;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  cursor: pointer;
+  /*
+  &:not(:target) .sidebar{
+      display: none;
+  }
+   */
+}
+@media screen and (min-width: 350px) {
+  .hamburger {
+    display: none;
+  }
+}
+.hamburger:target .sidebar {
+  display: block;
+}
+.hamburger:target {
+  display: none;
+}
+
+.content {
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (min-width: 350px) {
+  .content {
+    padding-left: 210px;
+  }
 }
 

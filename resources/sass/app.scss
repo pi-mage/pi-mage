@@ -1,13 +1,71 @@
 // une couleur
-$couleur : red;
+$telephone : 350px;
 
-.testscss {
-    color: $couleur;
-    background-color: #7dff98;
-    border-radius: 50px;
+$largeur_navbar : 200px;
 
-    .inner {
-        background-color: #9fcdff;
+
+.sidebar {
+    background-color: white;
+    box-shadow: 0 10px 10px -5px black;
+    font-weight: bold;
+    color: gray;
+
+    position: fixed;
+
+    //affichage telephone
+    @media screen and (max-width: $telephone) {
+        width: 80%;
+        display: none;
+
     }
 
+    // affichage ordinateur
+    @media screen and (min-width: $telephone) {
+        width: $largeur_navbar;
+    }
 }
+
+.hamburger {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: 0 10px 30px -5px black, 0 1px 5px 0px #0003;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    cursor: pointer;
+
+    // affichage ordinateur
+    @media screen and (min-width: $telephone) {
+        display: none;
+    }
+
+    &:target .sidebar{
+        display: block;
+    }
+    &:target {
+        display: none;
+    }
+    /*
+    &:not(:target) .sidebar{
+        display: none;
+    }
+     */
+}
+
+
+
+.content {
+    width: 100%;
+
+    $padding: 10px;
+    padding: $padding;
+
+    // affichage ordinateur
+    @media screen and (min-width: $telephone) {
+        padding-left: $largeur_navbar + $padding;
+    }
+}
+
+
