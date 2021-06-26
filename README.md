@@ -28,7 +28,7 @@ php artisan serve
     composer install
     ```
 
-- #### Erreur 500 sans exceptions dans les logs (clé maquante)
+- #### Erreur 500 sans exceptions dans les logs (clé manquante)
 
     Il est possible que ceci vienne d'une clé manquante.
     Si vous n'avez pas de fichier `.env` à la racine du projet (ex: après avoir cloné le projet), executez les deux commandes suivantes :

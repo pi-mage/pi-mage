@@ -30,4 +30,18 @@ function httpPost(url, data) {
 function getHTML(cssSelector){      return document.querySelector(cssSelector).outerHTML }
 function getInnerHTML(cssSelector){ return document.querySelector(cssSelector).innerHTML }
 function getValue(cssSelector){     return document.querySelector(cssSelector).value }
+function get(cssSelector){          return document.querySelector(cssSelector) }
 
+
+// ---------- Fonctionnement global ---------- //
+
+var sidebar = false;
+function clickHamburger(){
+    if(sidebar){
+        get('.sidebar').style.display = 'none';
+        sidebar = false;
+    } else {
+        get('.sidebar').style.display = 'initial';
+        sidebar = true;
+    }
+}

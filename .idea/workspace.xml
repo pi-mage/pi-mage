@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b5434f-925c-4408-bd57-6b4d0752cfd4" name="Default Changelist" comment="ajout">
+    <list default="true" id="d2b5434f-925c-4408-bd57-6b4d0752cfd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +35,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Enzo Dutra &lt;38140797+blackorbit1@users.noreply.github.com&gt;" />
         <option value="Equinox4 &lt;37479575+equinox4@users.noreply.github.com&gt;" />
       </list>
     </option>
@@ -177,6 +186,7 @@
       <recent name="$PROJECT_DIR$/resources/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -261,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621796284686</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ajout doc sur README.md pour lancement appli">
+      <created>1624735553299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624735553299</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +295,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="tests-front" />
+                        <option value="origin/tests-front" />
                       </list>
                     </value>
                   </entry>
@@ -300,7 +317,8 @@
     <MESSAGE value="ajout fichiers importants et suppression fichiers inutiles" />
     <MESSAGE value="ajout utilisation scss" />
     <MESSAGE value="test navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="test navbar" />
+    <MESSAGE value="ajout doc sur README.md pour lancement appli" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout doc sur README.md pour lancement appli" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
